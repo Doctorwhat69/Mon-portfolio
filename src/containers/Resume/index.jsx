@@ -1,3 +1,5 @@
+import Switch from "../../components/Switch/index.jsx";
+
 function Resume() {
   return (
     <section className="bg-gray-50">
@@ -70,8 +72,8 @@ function Resume() {
             />
           </div>
         </div>
+        <Switch />
       </div>
-      {/* </div> */}
     </section>
   );
 }
