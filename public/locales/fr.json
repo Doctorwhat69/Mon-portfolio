@@ -1,0 +1,51 @@
+{
+  "Header": {
+    "mesProjets": "Projets",
+    "Skills": "Compétences",
+    "Contact": "Contact",
+    "CV": "CV"
+  },
+  "Resume": {
+    "Titre": "Welcome Back, Barry !",
+    "texte": "Lets write a new blog post 🎉 !"
+  },
+
+  "Projets": {
+    "projet1": {
+      "titre": "Projet 1",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis perferendis hic asperiores quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?"
+    },
+    "projet2": {
+      "titre": "Projet 2",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis perferendis hic asperiores quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?"
+    },
+    "projet3": {
+      "titre": "Projet 3",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis perferendis hic asperiores quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?"
+    }
+  },
+
+  "Skills": {
+    "introduction": "lorem ipsum",
+
+    "Skill1": {
+      "titre": "Front-End Dev",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci distinctio alias voluptatum blanditiis laudantium."
+    },
+    "Skill2": {
+      "titre": "Skill 2",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci distinctio alias voluptatum blanditiis laudantium."
+    },
+    "Skill3": {
+      "titre": "Skill 3",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci distinctio alias voluptatum blanditiis laudantium."
+    }
+  },
+  "Contact": {
+    "titre": "Contactez-moi !"
+  },
+
+  "Footer": {
+    "description": "2024, Site designed by Thomas Blanc using React, TailWind, and HyperUI."
+  }
+}
