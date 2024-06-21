@@ -1,6 +1,9 @@
-import { useState } from "react";
+import { useState, useContext } from "react";
+import { LanguageContext } from "../../Context/languageContext";
+
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const { languageData } = useContext(LanguageContext);
 
   return (
     <header className="z-10 sticky top-0 flex flex-row justify-between items-center p-5 bg-zinc-50 text-black border-b-2 border-zinc-200">
@@ -37,19 +40,19 @@ function Header() {
             href="#mesProjets"
             className="hover:text-gray-400 transition duration-300"
           >
-            Mes Projets
+            {languageData?.header?.mesProjets || "Loading..."}
           </a>
           <a
-            href="#Parcours"
+            href="#Skills"
             className="hover:text-gray-400 transition duration-300"
           >
-            Parcours
+            {languageData?.header?.Skills || "Loading..."}
           </a>
           <a
             href="#Contact"
             className="hover:text-gray-400 transition duration-300 "
           >
-            Contact
+            {languageData?.header?.Contact || "Loading..."}
           </a>
           <a
             href="https://drive.google.com/file/d/1LeaOMKdlYKdhTKGdP7nFoCrq0z3E8KNV/view?usp=sharing"

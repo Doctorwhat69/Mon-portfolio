@@ -1,16 +1,17 @@
 {
-  "Header": {
+  "header": {
     "mesProjets": "Projets",
     "Skills": "Compétences",
     "Contact": "Contact",
     "CV": "CV"
   },
   "Resume": {
-    "Titre": "Welcome Back, Barry !",
-    "texte": "Lets write a new blog post 🎉 !"
+    "Titre": "Développeur Front-End, React et JavaScript",
+    "texte": "Je suis Thomas, développeur front-end passionné par la création de solutions web performantes et esthétiques. Expérimenté en JavaScript, React, Redux et Vue.js, je maîtrise le développement d'applications web responsives et optimisées. Découvrez mon portfolio pour voir comment je peux améliorer vos projets web."
   },
 
   "Projets": {
+    "titre": "Mes projets",
     "projet1": {
       "titre": "Projet 1",
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis perferendis hic asperiores quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?"
@@ -26,26 +27,28 @@
   },
 
   "Skills": {
-    "introduction": "lorem ipsum",
+    "titre": "Mes compétences",
+    "introduction": "En tant que développeur front-end hautement qualifié, spécialisé en JavaScript, React et Vue.js, je possède une maîtrise avancée du JavaScript moderne (ES6+), une connaissance approfondie de l'écosystème React et une solide expertise en Vue.js. Mon expertise en gestion d'état avec Redux, combinée à des compétences en communication efficace, me permet de créer des applications web dynamiques, réactives et évolutives tout en favorisant une collaboration solide entre les équipes. Je suis passionné par la création d'expériences utilisateur fluides et l'apprentissage continu de nouvelles technologies pour rester à la pointe dans le domaine en constante évolution du développement web.",
 
-    "Skill1": {
-      "titre": "Front-End Dev",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci distinctio alias voluptatum blanditiis laudantium."
+    "Javascript": {
+      "titre": "Maîtrise Avancée de JavaScript",
+      "description": "Maîtrise du JavaScript moderne (ES6+), y compris la programmation asynchrone, les fermetures et les concepts de programmation fonctionnelle, permettant le développement d'applications web efficaces et évolutives."
     },
-    "Skill2": {
-      "titre": "Skill 2",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci distinctio alias voluptatum blanditiis laudantium."
+    "React": {
+      "titre": "Expertise React",
+      "description": "Connaissance approfondie de React, y compris les hooks, l'API de contexte et les techniques d'optimisation des performances, associée à une expérience dans la gestion d'états complexes avec Redux, pour construire des interfaces utilisateur dynamiques et réactives."
     },
-    "Skill3": {
-      "titre": "Skill 3",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci distinctio alias voluptatum blanditiis laudantium."
+    "Communication": {
+      "titre": "Communication Efficace",
+      "description": "Capacité à exprimer clairement des idées, des concepts techniques et des exigences de projet à des audiences diverses, favorisant la collaboration et garantissant l'alignement entre les équipes."
     }
   },
   "Contact": {
-    "titre": "Contactez-moi !"
+    "titre": "Contactez-moi !",
+    "paragraphe": "Vous pouvez mécrire à l'adresse suivante : "
   },
 
   "Footer": {
-    "description": "2024, Site designed by Thomas Blanc using React, TailWind, and HyperUI."
+    "description": "2024, Site conçu par Thomas Blanc à l'aide de React, TailWind, et HyperUI."
   }
 }

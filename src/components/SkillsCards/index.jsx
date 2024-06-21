@@ -1,12 +1,15 @@
+import { LanguageContext } from "../../Context/languageContext";
+import { useContext } from "react";
+
 function SkillsCards() {
+  const { languageData } = useContext(LanguageContext);
+
   return (
     <div className="  text-black">
       <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
         <div className="mx-auto max-w-lg text-center">
           <p className="mt-4 text-black">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Consequuntur aliquam doloribus nesciunt eos fugiat. Vitae aperiam
-            fugit consequuntur saepe laborum.
+            {languageData?.Skills?.introduction || "Loading..."}
           </p>
         </div>
 
@@ -33,13 +36,11 @@ function SkillsCards() {
             </svg>
 
             <h2 className="mt-4 text-xl font-bold text-black">
-              Digital campaigns
+              {languageData?.Skills?.Javascript?.titre || "Loading..."}
             </h2>
 
             <p className="mt-1 text-sm text-black">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
-              possimus adipisci distinctio alias voluptatum blanditiis
-              laudantium.
+              {languageData?.Skills?.Javascript?.description || "Loading..."}
             </p>
           </a>
 
@@ -65,13 +66,11 @@ function SkillsCards() {
             </svg>
 
             <h2 className="mt-4 text-xl font-bold text-black">
-              Digital campaigns
+              {languageData?.Skills?.React?.titre || "Loading..."}
             </h2>
 
             <p className="mt-1 text-sm text-black">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
-              possimus adipisci distinctio alias voluptatum blanditiis
-              laudantium.
+              {languageData?.Skills?.React?.description || "Loading..."}
             </p>
           </a>
 
@@ -97,13 +96,11 @@ function SkillsCards() {
             </svg>
 
             <h2 className="mt-4 text-xl font-bold text-black">
-              Digital campaigns
+              {languageData?.Skills?.Communication?.titre || "Loading..."}
             </h2>
 
             <p className="mt-1 text-sm text-black">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
-              possimus adipisci distinctio alias voluptatum blanditiis
-              laudantium.
+              {languageData?.Skills?.Communication?.description || "Loading..."}
             </p>
           </a>
         </div>

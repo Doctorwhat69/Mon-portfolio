@@ -1,6 +1,10 @@
 import Switch from "../../components/Switch/index.jsx";
+import { LanguageContext } from "../../Context/languageContext";
+import { useContext } from "react";
 
 function Resume() {
+  const { languageData } = useContext(LanguageContext);
+
   return (
     <section className="bg-gray-50">
       {/* <div className="relative">
@@ -10,11 +14,11 @@ function Resume() {
         <div className="sm:flex sm:items-center sm:justify-between">
           <div className="text-center sm:text-left">
             <h1 className="text-2xl font-bold text-gray-900 sm:text-3xl">
-              Welcome Back, Barry!
+              {languageData?.Resume?.Titre || "Loading..."}
             </h1>
 
             <p className="mt-1.5 text-sm text-gray-500">
-              Lets write a new blog post 🎉 !
+              {languageData?.Resume?.texte || "Loading..."}
             </p>
             <div className="pt-5 flex flex-row md:justify-start justify-center">
               <a
