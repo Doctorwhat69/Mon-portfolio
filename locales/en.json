@@ -1,0 +1,55 @@
+{
+  "header": {
+    "mesProjets": "Projects",
+    "Skills": "Skills",
+    "Contact": "Contact",
+    "CV": "Resume"
+  },
+  "Resume": {
+    "Titre": "Front-End Developer, React and JavaScript",
+    "texte": "I'm Thomas, a front-end developer with a passion for creating high-performance and visually appealing web solutions. Experienced in JavaScript, React, Redux, and Vue.js, I excel in building responsive and optimized web applications. Explore my portfolio to see my work and how I can enhance your web projects."
+  },
+
+  "Projets": {
+    "titre": "My projects",
+
+    "projet1": {
+      "titre": "First Project",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis perferendis hic asperiores quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?"
+    },
+    "projet2": {
+      "titre": "Second Project",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis perferendis hic asperiores quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?"
+    },
+    "projet3": {
+      "titre": "Tird Project",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis perferendis hic asperiores quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?"
+    }
+  },
+
+  "Skills": {
+    "titre": "My Skills",
+    "introduction": "As a highly skilled front-end developer specializing in JavaScript, React, and Vue.js, I bring advanced proficiency in modern JavaScript (ES6+), a deep understanding of the React ecosystem, and solid knowledge of Vue.js. My expertise in state management with Redux, coupled with effective communication skills, enables me to build dynamic, responsive, and scalable web applications while fostering strong collaboration across teams. I am passionate about creating seamless user experiences and continuously learning new technologies to stay ahead in the ever-evolving field of web development.",
+
+    "Javascript": {
+      "titre": "Advanced JavaScript Proficiency",
+      "description": "Mastery in modern JavaScript (ES6+), including asynchronous programming, closures, and functional programming concepts, enabling the development of efficient and scalable web applications."
+    },
+    "React": {
+      "titre": "React Ecosystem Expertise",
+      "description": "In-depth knowledge of React, including hooks, context API, and performance optimization techniques, paired with experience in managing complex state using Redux, to build dynamic and responsive user interfaces."
+    },
+    "Communication": {
+      "titre": "Effective Communication",
+      "description": "Ability to clearly articulate ideas, technical concepts, and project requirements to diverse audiences, fostering collaboration and ensuring alignment across teams."
+    }
+  },
+  "Contact": {
+    "titre": "Contact-me !",
+    "paragraphe": "You can write to me at the following address: "
+  },
+
+  "Footer": {
+    "description": "2024, Site designed by Thomas Blanc using React, TailWind, and HyperUI."
+  }
+}
