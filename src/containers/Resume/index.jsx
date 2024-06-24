@@ -7,19 +7,25 @@ function Resume() {
 
   return (
     <section className="bg-gray-50">
-      {/* <div className="relative">
-        <div className="size-4 bg-black rounded-full ball"></div> */}
-
       <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
-        <div className="sm:flex sm:items-center sm:justify-between">
+        <div className="">
           <div className="text-center sm:text-left">
             <h1 className="text-2xl font-bold text-gray-900 sm:text-3xl">
               {languageData?.Resume?.Titre || "Loading..."}
             </h1>
+            <div className="flex">
+              <p className="mt-1.5 text-sm text-gray-500 w-2/3">
+                {languageData?.Resume?.texte || "Loading..."}
+              </p>
+              <div className="flex w-1/3 justify-center">
+                <img
+                  className="size-24 object-cover rounded-full"
+                  src="assets\Thomas_Profil.jpg"
+                  alt="profil Thomas Blanc"
+                />
+              </div>
+            </div>
 
-            <p className="mt-1.5 text-sm text-gray-500">
-              {languageData?.Resume?.texte || "Loading..."}
-            </p>
             <div className="pt-5 flex flex-row md:justify-start justify-center">
               <a
                 href="https://github.com/Doctorwhat69"
@@ -66,14 +72,6 @@ function Resume() {
                 </svg>
               </a>
             </div>
-          </div>
-
-          <div className="mt-4 flex flex-col gap-4 sm:mt-0 sm:flex-row items-center">
-            <img
-              className="size-24 object-cover rounded-full"
-              src="src\assets\Thomas_Profil.jpg"
-              alt="profil Thomas Blanc"
-            />
           </div>
         </div>
         <Switch />

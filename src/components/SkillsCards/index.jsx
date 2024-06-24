@@ -5,10 +5,10 @@ function SkillsCards() {
   const { languageData } = useContext(LanguageContext);
 
   return (
-    <div className="  text-black">
-      <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
+    <div className=" text-black mt-0">
+      <div className="mx-auto mt-0 max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-lg text-center">
-          <p className="mt-4 text-black">
+          <p className="text-black">
             {languageData?.Skills?.introduction || "Loading..."}
           </p>
         </div>

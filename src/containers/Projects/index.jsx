@@ -10,6 +10,10 @@ function Projects() {
     <section id="mesProjets" className="p-4 bg-zinc-50 text-black">
       <Title titre={languageData?.Projets?.titre || "Loading..."} />
       <Cards />
+
+      <a href="" className="">
+        Voir tous mes projets
+      </a>
     </section>
   );
 }

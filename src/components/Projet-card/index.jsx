@@ -1,12 +1,13 @@
-function Card() {
-  return (
-    <article className=" group relative block bg-black rounded-md">
-      <img
-        alt=""
-        src="src\assets\Nina_Carducci.jpg"
-        className="rounded-b-md	absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
-      />
+import PropTypes from "prop-types";
 
+function Card({ Src, Alt, Description }) {
+  return (
+    <article className="group relative block bg-black rounded-md">
+      <img
+        alt={Alt}
+        src={Src}
+        className="rounded-b-md absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
+      />
       <div className="relative p-0 lg:p-6">
         <div className="flex flex-row justify-between">
           <p className="text-xl font-bold text-white lg:text-2xl">Tony Wayne</p>
@@ -35,16 +36,18 @@ function Card() {
         </div>
         <div className="mt-32 lg:mt-48">
           <div className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
-            <p className="text-sm text-white">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
-              perferendis hic asperiores quibusdam quidem voluptates doloremque
-              reiciendis nostrum harum. Repudiandae?
-            </p>
+            <p className="text-sm text-white">{Description}</p>
           </div>
         </div>
       </div>
     </article>
   );
 }
+
+Card.propTypes = {
+  Src: PropTypes.string.isRequired,
+  Alt: PropTypes.string.isRequired,
+  Description: PropTypes.string.isRequired,
+};
 
 export default Card;

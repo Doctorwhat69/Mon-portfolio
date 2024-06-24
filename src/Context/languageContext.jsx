@@ -16,7 +16,7 @@ const LanguageProvider = ({ children }) => {
   }, [language]);
 
   const fetchLanguageData = () => {
-    const dataUrl = `/locales/${language}.json`;
+    const dataUrl = `locales/${language}.json`;
     fetch(dataUrl)
       .then((response) => {
         if (!response.ok) {
