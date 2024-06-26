@@ -13,16 +13,28 @@
   "Projets": {
     "titre": "Mes projets",
     "projet1": {
-      "titre": "Projet 1",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis perferendis hic asperiores quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?"
+      "titre": "Site de Nina Carducci",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis perferendis hic asperiores quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?",
+      "image": "./assets/Nina_Carducci.jpg",
+      "alt": "lorem",
+      "url": "https://doctorwhat69.github.io/ninacarducci.github.io-main/",
+      "github": "https://github.com/Doctorwhat69/ninacarducci.github.io-main"
     },
     "projet2": {
-      "titre": "Projet 2",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis perferendis hic asperiores quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?"
+      "titre": "Site de Kasa",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis perferendis hic asperiores quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?",
+      "image": "./assets/Kasa-fr.jpg",
+      "alt": "lorem",
+      "url": "https://doctorwhat69.github.io/L-application-OhMyFood/index.html",
+      "github": "https://github.com/Doctorwhat69/Le-site-de-Kasa-Fr"
     },
     "projet3": {
-      "titre": "Projet 3",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis perferendis hic asperiores quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?"
+      "titre": "Site de Oh My Food",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis perferendis hic asperiores quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?",
+      "image": "./assets/OhMyFood.png",
+      "alt": "lorem",
+      "url": "https://doctorwhat69.github.io/L-application-OhMyFood/index.html",
+      "github": "https://github.com/Doctorwhat69/L-application-OhMyFood"
     }
   },
 
