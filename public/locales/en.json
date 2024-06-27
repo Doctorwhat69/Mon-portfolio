@@ -14,16 +14,28 @@
     "titre": "My projects",
 
     "projet1": {
-      "titre": "First Project",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis perferendis hic asperiores quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?"
+      "titre": "Nina Carducci website",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis perferendis hic asperiores quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?",
+      "image": "./assets/Nina_Carducci.jpg",
+      "alt": "page d'accueil du site web de Nina Carducci",
+      "url": "https://doctorwhat69.github.io/ninacarducci.github.io-main/",
+      "github": "https://github.com/Doctorwhat69/ninacarducci.github.io-main"
     },
     "projet2": {
-      "titre": "Second Project",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis perferendis hic asperiores quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?"
+      "titre": "Kasa Website",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis perferendis hic asperiores quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?",
+      "image": "./assets/Kasa-fr.jpg",
+      "alt": "page d'accueil du site web de Nina Carducci",
+      "url": "https://doctorwhat69.github.io/L-application-OhMyFood/index.html",
+      "github": "https://github.com/Doctorwhat69/Le-site-de-Kasa-Fr"
     },
     "projet3": {
-      "titre": "Tird Project",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis perferendis hic asperiores quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?"
+      "titre": "Oh My Food Website",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis perferendis hic asperiores quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?",
+      "image": "./assets/OhMyFood.png",
+      "alt": "page d'accueil de Oh My Food",
+      "url": "https://doctorwhat69.github.io/L-application-OhMyFood/index.html",
+      "github": "https://github.com/Doctorwhat69/L-application-OhMyFood"
     }
   },
 

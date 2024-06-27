@@ -1,3 +1,4 @@
+import { Button } from "../../components/Button";
 import Cards from "../../components/Cards";
 import Title from "../../components/Title";
 import { LanguageContext } from "../../Context/languageContext";
@@ -10,10 +11,7 @@ function Projects() {
     <section id="mesProjets" className="p-4 bg-zinc-50 text-black">
       <Title titre={languageData?.Projets?.titre || "Loading..."} />
       <Cards />
-
-      <a href="" className="">
-        Voir tous mes projets
-      </a>
+      <Button Name="Voir tous mes projets" />
     </section>
   );
 }

@@ -1,22 +1,18 @@
 import PropTypes from "prop-types";
 
-function Card({ Src, Alt, Description }) {
+function Card({ Src, Alt, Description, Name, Github, Website }) {
   return (
-    <article className="group relative block bg-black rounded-md">
+    <article className="group relative block bg-black rounded-md lg:min-w-96">
       <img
         alt={Alt}
         src={Src}
-        className="rounded-b-md absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
+        className="rounded-md absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
       />
       <div className="relative p-0 lg:p-6">
         <div className="flex flex-row justify-between">
-          <p className="text-xl font-bold text-white lg:text-2xl">Tony Wayne</p>
+          <p className="text-xl font-bold text-white lg:text-2xl">{Name}</p>
           <div className="flex flex-row gap-2 p-0 align-middle">
-            <a
-              href="https://github.com/Doctorwhat69"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
+            <a href={Github} target="_blank" rel="noreferrer noopener">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 64 64"
@@ -29,7 +25,7 @@ function Card({ Src, Alt, Description }) {
               </svg>
             </a>
 
-            <a href="#" target="_blank" rel="noreferrer noopener">
+            <a href={Website} target="_blank" rel="noreferrer noopener">
               <i className="fa-solid fa-arrow-up-right-from-square text-white"></i>
             </a>
           </div>
@@ -46,6 +42,9 @@ function Card({ Src, Alt, Description }) {
 
 Card.propTypes = {
   Src: PropTypes.string.isRequired,
+  Name: PropTypes.string.isRequired,
+  Github: PropTypes.string.isRequired,
+  Website: PropTypes.string.isRequired,
   Alt: PropTypes.string.isRequired,
   Description: PropTypes.string.isRequired,
 };
