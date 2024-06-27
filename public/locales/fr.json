@@ -18,7 +18,8 @@
       "image": "./assets/Nina_Carducci.jpg",
       "alt": "lorem",
       "url": "https://doctorwhat69.github.io/ninacarducci.github.io-main/",
-      "github": "https://github.com/Doctorwhat69/ninacarducci.github.io-main"
+      "github": "https://github.com/Doctorwhat69/ninacarducci.github.io-main",
+      "technologies": ["javscript", "react"]
     },
     "projet2": {
       "titre": "Site de Kasa",
@@ -26,7 +27,8 @@
       "image": "./assets/Kasa-fr.jpg",
       "alt": "lorem",
       "url": "https://doctorwhat69.github.io/L-application-OhMyFood/index.html",
-      "github": "https://github.com/Doctorwhat69/Le-site-de-Kasa-Fr"
+      "github": "https://github.com/Doctorwhat69/Le-site-de-Kasa-Fr",
+      "technologies": ["javscript", "react"]
     },
     "projet3": {
       "titre": "Site de Oh My Food",
@@ -34,7 +36,8 @@
       "image": "./assets/OhMyFood.png",
       "alt": "lorem",
       "url": "https://doctorwhat69.github.io/L-application-OhMyFood/index.html",
-      "github": "https://github.com/Doctorwhat69/L-application-OhMyFood"
+      "github": "https://github.com/Doctorwhat69/L-application-OhMyFood",
+      "technologies": ["javscript", "react"]
     }
   },
 
@@ -62,5 +65,96 @@
 
   "Footer": {
     "description": "2024, Site conçu par Thomas Blanc à l'aide de React, TailWind, et HyperUI."
+  },
+
+  "Other": {
+    "projet1": {
+      "titre": "Site de Nina Carducci",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis perferendis hic asperiores quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?",
+      "image": "./assets/Nina_Carducci.jpg",
+      "alt": "page d'accueil du site web de Nina Carducci",
+      "url": "https://doctorwhat69.github.io/ninacarducci.github.io-main/",
+      "github": "https://github.com/Doctorwhat69/ninacarducci.github.io-main"
+    },
+    "projet2": {
+      "titre": "Site de Nina Carducci",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis perferendis hic asperiores quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?",
+      "image": "./assets/Nina_Carducci.jpg",
+      "alt": "page d'accueil du site web de Nina Carducci",
+      "url": "https://doctorwhat69.github.io/ninacarducci.github.io-main/",
+      "github": "https://github.com/Doctorwhat69/ninacarducci.github.io-main"
+    },
+    "projet3": {
+      "titre": "Site de Nina Carducci",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis perferendis hic asperiores quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?",
+      "image": "./assets/Nina_Carducci.jpg",
+      "alt": "page d'accueil du site web de Nina Carducci",
+      "url": "https://doctorwhat69.github.io/ninacarducci.github.io-main/",
+      "github": "https://github.com/Doctorwhat69/ninacarducci.github.io-main"
+    },
+    "projet4": {
+      "titre": "Site de Nina Carducci",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis perferendis hic asperiores quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?",
+      "image": "./assets/Nina_Carducci.jpg",
+      "alt": "page d'accueil du site web de Nina Carducci",
+      "url": "https://doctorwhat69.github.io/ninacarducci.github.io-main/",
+      "github": "https://github.com/Doctorwhat69/ninacarducci.github.io-main"
+    },
+    "projet5": {
+      "titre": "Site de Nina Carducci",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis perferendis hic asperiores quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?",
+      "image": "./assets/Nina_Carducci.jpg",
+      "alt": "page d'accueil du site web de Nina Carducci",
+      "url": "https://doctorwhat69.github.io/ninacarducci.github.io-main/",
+      "github": "https://github.com/Doctorwhat69/ninacarducci.github.io-main"
+    },
+    "projet6": {
+      "titre": "Site de Nina Carducci",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis perferendis hic asperiores quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?",
+      "image": "./assets/Nina_Carducci.jpg",
+      "alt": "page d'accueil du site web de Nina Carducci",
+      "url": "https://doctorwhat69.github.io/ninacarducci.github.io-main/",
+      "github": "https://github.com/Doctorwhat69/ninacarducci.github.io-main"
+    },
+    "projet7": {
+      "titre": "Site de Nina Carducci",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis perferendis hic asperiores quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?",
+      "image": "./assets/Nina_Carducci.jpg",
+      "alt": "page d'accueil du site web de Nina Carducci",
+      "url": "https://doctorwhat69.github.io/ninacarducci.github.io-main/",
+      "github": "https://github.com/Doctorwhat69/ninacarducci.github.io-main"
+    },
+    "projet8": {
+      "titre": "Site de Nina Carducci",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis perferendis hic asperiores quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?",
+      "image": "./assets/Nina_Carducci.jpg",
+      "alt": "page d'accueil du site web de Nina Carducci",
+      "url": "https://doctorwhat69.github.io/ninacarducci.github.io-main/",
+      "github": "https://github.com/Doctorwhat69/ninacarducci.github.io-main"
+    },
+    "projet9": {
+      "titre": "Site de Nina Carducci",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis perferendis hic asperiores quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?",
+      "image": "./assets/Nina_Carducci.jpg",
+      "alt": "page d'accueil du site web de Nina Carducci",
+      "url": "https://doctorwhat69.github.io/ninacarducci.github.io-main/",
+      "github": "https://github.com/Doctorwhat69/ninacarducci.github.io-main"
+    },
+    "projet10": {
+      "titre": "Site de Nina Carducci",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis perferendis hic asperiores quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?",
+      "image": "./assets/Nina_Carducci.jpg",
+      "alt": "page d'accueil du site web de Nina Carducci",
+      "url": "https://doctorwhat69.github.io/ninacarducci.github.io-main/",
+      "github": "https://github.com/Doctorwhat69/ninacarducci.github.io-main"
+    },
+    "projet11": {
+      "titre": "Site de Nina Carducci",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis perferendis hic asperiores quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?",
+      "image": "./assets/Nina_Carducci.jpg",
+      "alt": "page d'accueil du site web de Nina Carducci",
+      "url": "https://doctorwhat69.github.io/ninacarducci.github.io-main/",
+      "github": "https://github.com/Doctorwhat69/ninacarducci.github.io-main"
+    }
   }
 }

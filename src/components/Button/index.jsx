@@ -1,11 +1,11 @@
 import PropTypes from "prop-types";
 
-export const Button = ({ Name }) => {
+export const Button = ({ Name, Url }) => {
   return (
     <div className="text-center my-7">
       <a
         className="group relative inline-block focus:outline-none focus:ring"
-        href="/Mon-portfolio/projects"
+        href={Url}
       >
         <span className="absolute inset-0 translate-x-1.5 translate-y-1.5 bg-blue-300 transition-transform group-hover:translate-x-0 group-hover:translate-y-0"></span>
 
@@ -19,4 +19,5 @@ export const Button = ({ Name }) => {
 
 Button.propTypes = {
   Name: PropTypes.string.isRequired,
+  Url: PropTypes.string.isRequired,
 };
