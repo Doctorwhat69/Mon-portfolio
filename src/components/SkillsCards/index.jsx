@@ -8,7 +8,7 @@ function SkillsCards() {
     <div className=" text-black mt-0">
       <div className="mx-auto mt-0 max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div className="text-center mx-24 max-w">
-          <p className="text-black">
+          <p className="text-black hidden sm:block">
             {languageData?.Skills?.introduction || "Loading..."}
           </p>
         </div>

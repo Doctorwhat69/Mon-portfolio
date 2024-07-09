@@ -26,6 +26,7 @@ function OpCards() {
               Alt={project.alt}
               Website={project.url}
               Github={project.github}
+              Technologies={project.technologies}
             />
           );
         })}

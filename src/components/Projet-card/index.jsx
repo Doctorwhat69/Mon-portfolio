@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-function Card({ Src, Alt, Description, Name, Github, Website }) {
+function Card({ Src, Alt, Description, Name, Github, Website, Technologies }) {
   return (
     <article className="group relative block bg-black rounded-md lg:min-w-96">
       <img
@@ -33,6 +33,18 @@ function Card({ Src, Alt, Description, Name, Github, Website }) {
         <div className="mt-32 lg:mt-48">
           <div className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
             <p className="text-sm text-white">{Description}</p>
+            <div className="flex flex-wrap gap-1 mt-2">
+              {Technologies.map((tech, index) => (
+                <div
+                  key={index}
+                  className="inline-flex items-center justify-center rounded-full bg-stone-600 px-2.5 py-0.5 text-zinc-700"
+                >
+                  <p className="whitespace-nowrap text-gray-50 text-sm px-1">
+                    {tech}
+                  </p>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
@@ -47,6 +59,7 @@ Card.propTypes = {
   Website: PropTypes.string.isRequired,
   Alt: PropTypes.string.isRequired,
   Description: PropTypes.string.isRequired,
+  Technologies: PropTypes.arrayOf(PropTypes.string).isRequired,
 };
 
 export default Card;

@@ -8,18 +8,18 @@ function Resume() {
   return (
     <section className="bg-gray-50">
       <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
-        <div className="">
+        <div className="mb-5">
           <div className="text-center sm:text-left">
             <h1 className="text-2xl font-bold text-gray-900 sm:text-3xl">
               {languageData?.Resume?.Titre || "Loading..."}
             </h1>
-            <div className="flex">
-              <p className="mt-1.5 text-sm text-gray-500 w-2/3">
+            <div className="flex flex-col justify-center mx-auto sm:flex-row sm:mt-5">
+              <p className="mt-1.5 text-sm text-gray-500 w-2/3 mx-auto">
                 {languageData?.Resume?.texte || "Loading..."}
               </p>
-              <div className="flex w-1/3 justify-center">
+              <div className="flex w-1/3 justify-center mx-auto mt-5 sm:mt-0 ">
                 <img
-                  className="size-24 object-cover rounded-full"
+                  className="size-24 object-cover rounded-full "
                   src="assets\Thomas_Profil.jpg"
                   alt="profil Thomas Blanc"
                 />

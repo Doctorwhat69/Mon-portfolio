@@ -20,7 +20,7 @@
       "alt": "page d'accueil du site web de Nina Carducci",
       "url": "https://doctorwhat69.github.io/ninacarducci.github.io-main/",
       "github": "https://github.com/Doctorwhat69/ninacarducci.github.io-main",
-      "technologies": ["javscript", "react"]
+      "technologies": ["javascript", "react"]
     },
     "projet2": {
       "titre": "Kasa Website",
@@ -29,7 +29,7 @@
       "alt": "page d'accueil du site web de Nina Carducci",
       "url": "https://doctorwhat69.github.io/L-application-OhMyFood/index.html",
       "github": "https://github.com/Doctorwhat69/Le-site-de-Kasa-Fr",
-      "technologies": ["javscript", "react"]
+      "technologies": ["javascript", "react", "css-components"]
     },
     "projet3": {
       "titre": "Oh My Food Website",
@@ -38,13 +38,13 @@
       "alt": "page d'accueil de Oh My Food",
       "url": "https://doctorwhat69.github.io/L-application-OhMyFood/index.html",
       "github": "https://github.com/Doctorwhat69/L-application-OhMyFood",
-      "technologies": ["javscript", "react"]
+      "technologies": ["javascript", "react"]
     }
   },
 
   "Skills": {
     "titre": "My Skills",
-    "introduction": "As a highly skilled front-end developer specializing in JavaScript, React, and Vue.js, I bring advanced proficiency in modern JavaScript (ES6+), a deep understanding of the React ecosystem, and solid knowledge of Vue.js. My expertise in state management with Redux, coupled with effective communication skills, enables me to build dynamic, responsive, and scalable web applications while fostering strong collaboration across teams. I am passionate about creating seamless user experiences and continuously learning new technologies to stay ahead in the ever-evolving field of web development.",
+    "introduction": "As a highly skilled front-end developer specializing in JavaScript, React, and Vue.js, I bring advanced proficiency in modern JavaScript (ES6+), a deep understanding of the React ecosystem, and solid knowledge of Vue.js. My expertise in state management with Redux, coupled with effective communication skills, enables me to build dynamic, responsive, and scalable web applications while fostering strong collaboration across teams.",
 
     "Javascript": {
       "titre": "Advanced JavaScript Proficiency",
@@ -70,92 +70,76 @@
 
   "Other": {
     "projet1": {
-      "titre": "Nina Carducci website",
+      "titre": "Site de Nina Carducci",
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis perferendis hic asperiores quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?",
       "image": "./assets/Nina_Carducci.jpg",
-      "alt": "page d'accueil du site web de Nina Carducci",
+      "alt": "lorem",
       "url": "https://doctorwhat69.github.io/ninacarducci.github.io-main/",
-      "github": "https://github.com/Doctorwhat69/ninacarducci.github.io-main"
+      "github": "https://github.com/Doctorwhat69/ninacarducci.github.io-main",
+      "technologies": ["javascript", "react"]
     },
     "projet2": {
-      "titre": "Nina Carducci website",
+      "titre": "Site de Kasa",
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis perferendis hic asperiores quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?",
-      "image": "./assets/Nina_Carducci.jpg",
-      "alt": "page d'accueil du site web de Nina Carducci",
-      "url": "https://doctorwhat69.github.io/ninacarducci.github.io-main/",
-      "github": "https://github.com/Doctorwhat69/ninacarducci.github.io-main"
+      "image": "./assets/Kasa-fr.jpg",
+      "alt": "lorem",
+      "url": "https://doctorwhat69.github.io/L-application-OhMyFood/index.html",
+      "github": "https://github.com/Doctorwhat69/Le-site-de-Kasa-Fr",
+      "technologies": ["javascript", "react", "css-components"]
     },
     "projet3": {
-      "titre": "Nina Carducci website",
+      "titre": "Site de Oh My Food",
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis perferendis hic asperiores quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?",
-      "image": "./assets/Nina_Carducci.jpg",
-      "alt": "page d'accueil du site web de Nina Carducci",
-      "url": "https://doctorwhat69.github.io/ninacarducci.github.io-main/",
-      "github": "https://github.com/Doctorwhat69/ninacarducci.github.io-main"
+      "image": "./assets/OhMyFood.png",
+      "alt": "lorem",
+      "url": "https://doctorwhat69.github.io/L-application-OhMyFood/index.html",
+      "github": "https://github.com/Doctorwhat69/L-application-OhMyFood",
+      "technologies": ["html", "css", "sass"]
     },
     "projet4": {
-      "titre": "Nina Carducci website",
+      "titre": "Application bancaire, Argent-Bank",
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis perferendis hic asperiores quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?",
-      "image": "./assets/Nina_Carducci.jpg",
+      "image": "./assets/site_de_Argent_Bank.jpg",
       "alt": "page d'accueil du site web de Nina Carducci",
       "url": "https://doctorwhat69.github.io/ninacarducci.github.io-main/",
-      "github": "https://github.com/Doctorwhat69/ninacarducci.github.io-main"
+      "github": "https://github.com/Doctorwhat69/ninacarducci.github.io-main",
+      "technologies": ["javascript", "react", "redux"]
     },
     "projet5": {
-      "titre": "Nina Carducci website",
+      "titre": "Site de Sophie Bluel, architecte d'intérieur",
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis perferendis hic asperiores quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?",
-      "image": "./assets/Nina_Carducci.jpg",
-      "alt": "page d'accueil du site web de Nina Carducci",
+      "image": "./assets/site_de_Sophie_Bluel.jpg",
+      "alt": "page d'accueil du site web de Sophie Bluel",
       "url": "https://doctorwhat69.github.io/ninacarducci.github.io-main/",
-      "github": "https://github.com/Doctorwhat69/ninacarducci.github.io-main"
+      "github": "https://github.com/Doctorwhat69/ninacarducci.github.io-main",
+      "technologies": ["javascript", "API fetch"]
     },
     "projet6": {
-      "titre": "Nina Carducci website",
+      "titre": "Site de Print It",
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis perferendis hic asperiores quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?",
-      "image": "./assets/Nina_Carducci.jpg",
+      "image": "./assets/site_de_Print_It.jpg",
       "alt": "page d'accueil du site web de Nina Carducci",
       "url": "https://doctorwhat69.github.io/ninacarducci.github.io-main/",
-      "github": "https://github.com/Doctorwhat69/ninacarducci.github.io-main"
+      "github": "https://github.com/Doctorwhat69/Le-site-Print-It",
+      "technologies": ["javascript", "html", "css"]
     },
     "projet7": {
-      "titre": "Nina Carducci website",
+      "titre": "Site de Booki",
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis perferendis hic asperiores quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?",
-      "image": "./assets/Nina_Carducci.jpg",
-      "alt": "page d'accueil du site web de Nina Carducci",
+      "image": "./assets/site_de_Booki.jpg",
+      "alt": "page d'accueil du site web de Booki, application d'hébergements",
       "url": "https://doctorwhat69.github.io/ninacarducci.github.io-main/",
-      "github": "https://github.com/Doctorwhat69/ninacarducci.github.io-main"
+      "github": "https://github.com/Doctorwhat69/Booki",
+      "technologies": ["html", "css"]
     },
     "projet8": {
-      "titre": "Nina Carducci website",
+      "titre": "Site de Riding Cities",
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis perferendis hic asperiores quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?",
-      "image": "./assets/Nina_Carducci.jpg",
-      "alt": "page d'accueil du site web de Nina Carducci",
+      "image": "./assets/site_de_Riding_Cities.jpg",
+      "alt": "page d'accueil du site web de Riding Cities",
       "url": "https://doctorwhat69.github.io/ninacarducci.github.io-main/",
-      "github": "https://github.com/Doctorwhat69/ninacarducci.github.io-main"
-    },
-    "projet9": {
-      "titre": "Nina Carducci website",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis perferendis hic asperiores quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?",
-      "image": "./assets/Nina_Carducci.jpg",
-      "alt": "page d'accueil du site web de Nina Carducci",
-      "url": "https://doctorwhat69.github.io/ninacarducci.github.io-main/",
-      "github": "https://github.com/Doctorwhat69/ninacarducci.github.io-main"
-    },
-    "projet10": {
-      "titre": "Nina Carducci website",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis perferendis hic asperiores quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?",
-      "image": "./assets/Nina_Carducci.jpg",
-      "alt": "page d'accueil du site web de Nina Carducci",
-      "url": "https://doctorwhat69.github.io/ninacarducci.github.io-main/",
-      "github": "https://github.com/Doctorwhat69/ninacarducci.github.io-main"
-    },
-    "projet11": {
-      "titre": "Nina Carducci website",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis perferendis hic asperiores quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?",
-      "image": "./assets/Nina_Carducci.jpg",
-      "alt": "page d'accueil du site web de Nina Carducci",
-      "url": "https://doctorwhat69.github.io/ninacarducci.github.io-main/",
-      "github": "https://github.com/Doctorwhat69/ninacarducci.github.io-main"
+      "github": "https://github.com/Doctorwhat69/ninacarducci.github.io-main",
+      "technologies": ["html", "css"]
     }
   }
 }
