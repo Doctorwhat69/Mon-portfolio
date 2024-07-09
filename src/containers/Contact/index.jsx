@@ -1,4 +1,3 @@
-import Badge from "../../components/Badge";
 import Title from "../../components/Title";
 import { LanguageContext } from "../../Context/languageContext";
 import { useContext } from "react";
@@ -16,8 +15,6 @@ function Contact() {
       <a className=" m-auto font-bold" href="mailto:thoblanc.tb@gmail.com">
         thoblanc.tb@gmail.com
       </a>
-
-      <div className=""><Badge /></div>
     </section>
   );
 }
