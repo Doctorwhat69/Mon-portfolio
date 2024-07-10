@@ -8,6 +8,7 @@ function Cards() {
   return (
     <div className="lg:min-w-full box-border justify-center flex-col flex md:flex-row gap-12 p-4 whitespace-normal">
       <Card
+        className="flex-1 w-1/3"
         Src={languageData?.Projets?.projet1?.image || "Loading..."}
         Alt={languageData?.Projets?.projet1?.alt || "Loading..."}
         Description={
@@ -19,6 +20,7 @@ function Cards() {
         Technologies={languageData?.Projets?.projet1?.technologies || []}
       />
       <Card
+        className="flex-1 w-1/3"
         Src={languageData?.Projets?.projet2?.image || "Loading..."}
         Alt={languageData?.Projets?.projet2?.alt || "Loading..."}
         Description={
@@ -30,6 +32,7 @@ function Cards() {
         Technologies={languageData?.Projets?.projet2?.technologies || []}
       />
       <Card
+        className="flex-1 w-1/3"
         Src={languageData?.Projets?.projet3?.image || "Loading..."}
         Alt={languageData?.Projets?.projet3?.alt || "Loading..."}
         Website={languageData?.Projets?.projet3?.url || "Loading..."}
