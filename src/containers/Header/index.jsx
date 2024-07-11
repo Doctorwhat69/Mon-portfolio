@@ -1,5 +1,6 @@
 import { useState, useContext } from "react";
 import { LanguageContext } from "../../Context/languageContext";
+import { Link } from "react-router-dom";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -7,9 +8,9 @@ function Header() {
 
   return (
     <header className="z-10 sticky top-0 flex flex-row justify-between items-center p-5 bg-zinc-50 text-black border-b-2 border-zinc-200">
-      <a href="/Mon-portfolio/">
+      <Link to="/">
         <h1 className="font-bold">Thomas Blanc</h1>
-      </a>
+      </Link>
       <nav className="flex items-center">
         <div className="md:hidden">
           <button

@@ -9,7 +9,7 @@ function OthersProjects() {
       <Title titre="Tous mes Projets" />
       <Switch />
       <OpCards />
-      <Button Name="retour à la page d'accueil" Url="/Mon-portfolio/" />
+      <Button Name="retour à la page d'accueil" Url="/" />
     </div>
   );
 }

@@ -11,7 +11,7 @@ function Projects() {
     <section id="mesProjets" className="p-4 bg-zinc-50 text-black">
       <Title titre={languageData?.Projets?.titre || "Loading..."} />
       <Cards />
-      <Button Name="Voir tous mes projets" Url="/Mon-portfolio/projects" />
+      <Button Name="Voir tous mes projets" Url="/projects" />
     </section>
   );
 }
