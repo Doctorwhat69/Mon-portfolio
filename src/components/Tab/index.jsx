@@ -1,4 +1,14 @@
-function Tab() {
+import { useState } from "react";
+import PropTypes from "prop-types";
+
+function Tab({ onChange }) {
+  const [value, setValue] = useState("Tous");
+
+  const changeValue = (newValue) => {
+    onChange(newValue);
+    setValue(newValue);
+  };
+
   return (
     <div className="mb-10">
       <div className="sm:hidden">
@@ -6,49 +16,75 @@ function Tab() {
           Tab
         </label>
 
-        <select id="Tab" className="w-full rounded-md border-gray-200">
-          <option> Tous </option>
-          <option> OpenClassrooms </option>
-          <option> jeux JS </option>
-          <option> Autre </option>
+        <select
+          id="Tab"
+          name="tab"
+          className="w-full rounded-md border-gray-200"
+          value={value}
+          onChange={(e) => changeValue(e.target.value)}
+        >
+          <option value="Tous">Tous</option>
+          <option value="OpenClassRooms">OpenClassrooms</option>
+          <option value="jeux JS">Jeux Javascript</option>
+          <option value="Autre">Autre</option>
         </select>
       </div>
 
       <div className="hidden sm:block">
         <div className="border-b border-gray-200">
           <nav className="-mb-px flex gap-6" aria-label="Tabs">
-            <a
-              href="#"
-              className="shrink-0 border-b-2 border-sky-500 px-1 pb-4 text-sm font-medium text-sky-600"
-              aria-current="page"
+            <button
+              onClick={() => changeValue("Tous")}
+              className={`shrink-0 border-b-2 ${
+                value === "Tous"
+                  ? "border-sky-500 text-sky-600"
+                  : "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700"
+              } px-1 pb-4 text-sm font-medium`}
             >
               Tous
-            </a>
+            </button>
 
-            <a
-              href="#"
-              className="shrink-0 border-b-2 border-transparent px-1 pb-4 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
+            <button
+              onClick={() => changeValue("OpenClassRooms")}
+              className={`shrink-0 border-b-2 ${
+                value === "OpenClassRooms"
+                  ? "border-sky-500 text-sky-600"
+                  : "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700"
+              } px-1 pb-4 text-sm font-medium`}
             >
-              OpenClassrooms
-            </a>
+              OpenClassRooms
+            </button>
 
-            <a
-              href="#"
-              className="shrink-0 border-b-2 border-transparent px-1 pb-4 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
+            <button
+              onClick={() => changeValue("jeux JS")}
+              className={`shrink-0 border-b-2 ${
+                value === "jeux JS"
+                  ? "border-sky-500 text-sky-600"
+                  : "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700"
+              } px-1 pb-4 text-sm font-medium`}
             >
               Jeux Javascript
-            </a>
-            <a
-              href="#"
-              className="shrink-0 border-b-2 border-transparent px-1 pb-4 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
+            </button>
+
+            <button
+              onClick={() => changeValue("Autre")}
+              className={`shrink-0 border-b-2 ${
+                value === "Autre"
+                  ? "border-sky-500 text-sky-600"
+                  : "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700"
+              } px-1 pb-4 text-sm font-medium`}
             >
               Autre
-            </a>
+            </button>
           </nav>
         </div>
       </div>
     </div>
   );
 }
+
+Tab.propTypes = {
+  onChange: PropTypes.func.isRequired,
+};
 
 export default Tab;

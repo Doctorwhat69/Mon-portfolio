@@ -76,6 +76,7 @@
       "alt": "lorem",
       "url": "https://doctorwhat69.github.io/ninacarducci.github.io-main/",
       "github": "https://github.com/Doctorwhat69/ninacarducci.github.io-main",
+      "type": "OpenClassRooms",
       "technologies": ["javascript", "react", "SEO", "Accessibility"]
     },
     "projet2": {
@@ -85,6 +86,7 @@
       "alt": "lorem",
       "url": "https://doctorwhat69.github.io/L-application-OhMyFood/index.html",
       "github": "https://github.com/Doctorwhat69/Le-site-de-Kasa-Fr",
+      "type": "OpenClassRooms",
       "technologies": ["javascript", "react", "css-components"]
     },
     "projet3": {
@@ -94,6 +96,7 @@
       "alt": "lorem",
       "url": "https://doctorwhat69.github.io/L-application-OhMyFood/index.html",
       "github": "https://github.com/Doctorwhat69/L-application-OhMyFood",
+      "type": "OpenClassRooms",
       "technologies": ["HTML", "CSS", "SASS"]
     },
     "projet4": {
@@ -103,6 +106,7 @@
       "alt": "page d'accueil du site web de Nina Carducci",
       "url": "https://doctorwhat69.github.io/ninacarducci.github.io-main/",
       "github": "https://github.com/Doctorwhat69/ninacarducci.github.io-main",
+      "type": "OpenClassRooms",
       "technologies": ["javascript", "react", "redux"]
     },
     "projet5": {
@@ -112,6 +116,7 @@
       "alt": "page d'accueil du site web de Sophie Bluel",
       "url": "https://doctorwhat69.github.io/ninacarducci.github.io-main/",
       "github": "https://github.com/Doctorwhat69/ninacarducci.github.io-main",
+      "type": "OpenClassRooms",
       "technologies": ["javascript", "API fetch"]
     },
     "projet6": {
@@ -121,6 +126,7 @@
       "alt": "page d'accueil du site web de Nina Carducci",
       "url": "https://doctorwhat69.github.io/ninacarducci.github.io-main/",
       "github": "https://github.com/Doctorwhat69/Le-site-Print-It",
+      "type": "OpenClassRooms",
       "technologies": ["javascript", "HTML", "CSS"]
     },
     "projet7": {
@@ -130,6 +136,7 @@
       "alt": "page d'accueil du site web de Booki, application d'hébergements",
       "url": "https://doctorwhat69.github.io/ninacarducci.github.io-main/",
       "github": "https://github.com/Doctorwhat69/Booki",
+      "type": "OpenClassRooms",
       "technologies": ["HTML", "CSS"]
     },
     "projet8": {
@@ -139,6 +146,7 @@
       "alt": "page d'accueil du site web de Riding Cities",
       "url": "https://doctorwhat69.github.io/ninacarducci.github.io-main/",
       "github": "https://github.com/Doctorwhat69/ninacarducci.github.io-main",
+      "type": "OpenClassRooms",
       "technologies": ["HTML", "CSS"]
     },
     "projet9": {
@@ -148,15 +156,17 @@
       "alt": "page d'accueil du site web de 724 events",
       "url": "https://doctorwhat69.github.io/ninacarducci.github.io-main/",
       "github": "https://github.com/Doctorwhat69/ninacarducci.github.io-main",
+      "type": "OpenClassRooms",
       "technologies": ["React", "Jest"]
     },
     "projet10": {
       "titre": "Jeu de plateforme Javascript",
       "description": "Un petit projet de jeu vidéo pour tester la POO class version javascript !",
-      "image": "public/assets/Jeu_plateforme_javascript.jpg",
+      "image": "./assets/Jeu_plateforme_javascript.jpg",
       "alt": "page de mon jeu de plateforme",
       "url": "https://doctorwhat69.github.io/mario-game-like/",
       "github": "https://github.com/Doctorwhat69/mario-game-like",
+      "type": "jeux JS",
       "technologies": ["Javascript"]
     }
   }
