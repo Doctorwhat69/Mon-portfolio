@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import OthersProjects from "./pages/OthersProjects";
 import { LanguageProvider } from "./Context/languageContext.jsx";
+import ErrorPage from "./pages/ErrorPage/index.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -17,6 +18,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/projects" element={<OthersProjects />} />
+            <Route path="*" element={<ErrorPage />} />
           </Routes>
           <Footer />
         </div>

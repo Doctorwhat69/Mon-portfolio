@@ -1,6 +1,7 @@
 import { useState, useContext } from "react";
 import { LanguageContext } from "../../Context/languageContext";
 import { Link } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -39,24 +40,30 @@ function Header() {
             isOpen ? "flex" : "hidden"
           } gap-4`}
         >
-          <a
-            href="#mesProjets"
-            className="hover:text-gray-400 transition duration-300"
+          <ScrollLink
+            to="mesProjets"
+            smooth={true}
+            duration={50}
+            className="hover:text-gray-400 transition duration-300 cursor-pointer"
           >
             {languageData?.header?.mesProjets || "Loading..."}
-          </a>
-          <a
-            href="#Skills"
-            className="hover:text-gray-400 transition duration-300"
+          </ScrollLink>
+          <ScrollLink
+            to="Skills"
+            smooth={true}
+            duration={50}
+            className="hover:text-gray-400 transition duration-300 cursor-pointer"
           >
             {languageData?.header?.Skills || "Loading..."}
-          </a>
-          <a
-            href="#Contact"
-            className="hover:text-gray-400 transition duration-300 "
+          </ScrollLink>
+          <ScrollLink
+            to="Contact"
+            smooth={true}
+            duration={50}
+            className="hover:text-gray-400 transition duration-300 cursor-pointer"
           >
             {languageData?.header?.Contact || "Loading..."}
-          </a>
+          </ScrollLink>
           <a
             href="https://drive.google.com/file/d/1LeaOMKdlYKdhTKGdP7nFoCrq0z3E8KNV/view?usp=sharing"
             className="hover:text-gray-400 transition-colors duration-300"
