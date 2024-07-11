@@ -15,11 +15,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <div className="font-sans">
           <Header />
           <Routes>
-            <Route path="/Mon-portfolio" element={<Home />} />
-            <Route
-              path="/Mon-portfolio/projects"
-              element={<OthersProjects />}
-            />
+            <Route path="/" element={<Home />} />
+            <Route path="/projects" element={<OthersProjects />} />
           </Routes>
           <Footer />
         </div>
