@@ -13,34 +13,37 @@
   "Projets": {
     "titre": "Mes projets",
     "projet1": {
-      "titre": "Site de Nina Carducci",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis perferendis hic asperiores quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?",
-      "image": "./assets/Nina_Carducci.jpg",
-      "alt": "lorem",
+      "titre": "Argent-Bank, app bancaire",
+      "description": "Ce projet d'appli immobilière, Argent-Bank a été passionnant et très formateur ! Il m'a permis d'utiliser Redux et React pour créer une fonctionnalité de connexion intuitive ainsi qu'une page utilisateur complète et interactive.",
+      "image": "./assets/site_de_Argent_Bank.jpg",
+      "alt": "page d'accueil du site web de Argent-Bank",
       "url": "https://doctorwhat69.github.io/ninacarducci.github.io-main/",
-      "github": "https://github.com/Doctorwhat69/ninacarducci.github.io-main"
+      "github": "https://github.com/Doctorwhat69/Argent-Bank",
+      "technologies": ["javascript", "react", "redux"]
     },
     "projet2": {
       "titre": "Site de Kasa",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis perferendis hic asperiores quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?",
+      "description": "Mon projet de la découverte de React ! Un projet somme toute motivant, et qui m'a permis de me familiariser avec l'une des bibliothèques Front les plus populaires. De plus, j'ai découvert les usages de Css-components vraiment utile en particulier pour mettre en place des animations fluides et pour gerer efficacement l'entièreté de son CSS !",
       "image": "./assets/Kasa-fr.jpg",
       "alt": "lorem",
       "url": "https://doctorwhat69.github.io/L-application-OhMyFood/index.html",
-      "github": "https://github.com/Doctorwhat69/Le-site-de-Kasa-Fr"
+      "github": "https://github.com/Doctorwhat69/Le-site-de-Kasa-Fr",
+      "technologies": ["javascript", "react", "css-components"]
     },
     "projet3": {
-      "titre": "Site de Oh My Food",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis perferendis hic asperiores quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?",
-      "image": "./assets/OhMyFood.png",
-      "alt": "lorem",
-      "url": "https://doctorwhat69.github.io/L-application-OhMyFood/index.html",
-      "github": "https://github.com/Doctorwhat69/L-application-OhMyFood"
+      "titre": "Site de 724 events",
+      "description": "Un projet de confirmation sur REACT. Il m'a notamment permis de me familiariser avec le debbogage en identifiant et en résolvant efficacement les erreurs de code.  De plus, j'ai utilisé JEST pour effectuer des tests unitaires rigoureux, garantissant la fiabilité et la qualité du code. ",
+      "image": "./assets/site_ de_724_Events.jpg",
+      "alt": "page d'accueil du site web de 724 events",
+      "url": "https://doctorwhat69.github.io/ninacarducci.github.io-main/",
+      "github": "https://github.com/Doctorwhat69/ninacarducci.github.io-main",
+      "technologies": ["React", "Jest"]
     }
   },
 
   "Skills": {
     "titre": "Mes compétences",
-    "introduction": "En tant que développeur front-end hautement qualifié, spécialisé en JavaScript, React et Vue.js, je possède une maîtrise avancée du JavaScript moderne (ES6+), une connaissance approfondie de l'écosystème React et une solide expertise en Vue.js. Mon expertise en gestion d'état avec Redux, combinée à des compétences en communication efficace, me permet de créer des applications web dynamiques, réactives et évolutives tout en favorisant une collaboration solide entre les équipes. Je suis passionné par la création d'expériences utilisateur fluides et l'apprentissage continu de nouvelles technologies pour rester à la pointe dans le domaine en constante évolution du développement web.",
+    "introduction": "En tant que développeur front-end hautement qualifié, spécialisé en JavaScript, React et Vue.js, je possède une maîtrise avancée du JavaScript moderne (ES6+), une connaissance approfondie de l'écosystème React et une solide expertise en Vue.js. Mon expertise en gestion d'état avec Redux, combinée à des compétences en communication efficace, me permet de créer des applications web dynamiques, réactives et évolutives tout en favorisant une collaboration solide entre les équipes.",
 
     "Javascript": {
       "titre": "Maîtrise Avancée de JavaScript",
@@ -62,5 +65,108 @@
 
   "Footer": {
     "description": "2024, Site conçu par Thomas Blanc à l'aide de React, TailWind, et HyperUI."
+  },
+
+  "Other": {
+    "projet1": {
+      "titre": "Site de Nina Carducci",
+      "description": "Un projet visant à montrer les enjeux de l'optimisation SEO et de l'amélioration de l'accessibilité web.",
+      "image": "./assets/Nina_Carducci.jpg",
+      "alt": "lorem",
+      "url": "https://doctorwhat69.github.io/ninacarducci.github.io-main/",
+      "github": "https://github.com/Doctorwhat69/ninacarducci.github.io-main",
+      "type": "OpenClassRooms",
+      "technologies": ["javascript", "react", "SEO", "Accessibility"]
+    },
+    "projet2": {
+      "titre": "Site de Kasa",
+      "description": "Mon projet de la découverte de React ! Un projet somme toute motivant, et qui m'a permis de me familiariser avec l'une des bibliothèques Front les plus populaires. De plus, j'ai découvert les usages de Css-components vraiment utile en particulier pour mettre en place des animations fluides et pour gerer efficacement l'entièreté de son CSS !",
+      "image": "./assets/Kasa-fr.jpg",
+      "alt": "lorem",
+      "url": "https://doctorwhat69.github.io/L-application-OhMyFood/index.html",
+      "github": "https://github.com/Doctorwhat69/Le-site-de-Kasa-Fr",
+      "type": "OpenClassRooms",
+      "technologies": ["javascript", "react", "css-components"]
+    },
+    "projet3": {
+      "titre": "Site de Oh My Food",
+      "description": "Ce site a été développé à l'aide SASS, et a permis de mettre en avant ma capacité à produire des animations CSS vraiment sympathiques !  ",
+      "image": "./assets/OhMyFood.png",
+      "alt": "lorem",
+      "url": "https://doctorwhat69.github.io/L-application-OhMyFood/index.html",
+      "github": "https://github.com/Doctorwhat69/L-application-OhMyFood",
+      "type": "OpenClassRooms",
+      "technologies": ["HTML", "CSS", "SASS"]
+    },
+    "projet4": {
+      "titre": "Argent-Bank, application bancaire",
+      "description": "Ce projet d'appli immobilière, Argent-Bank a été passionnant et très formateur ! Il m'a permis d'utiliser Redux et React pour créer une fonctionnalité de connexion intuitive ainsi qu'une page utilisateur complète et interactive.",
+      "image": "./assets/site_de_Argent_Bank.jpg",
+      "alt": "page d'accueil du site web de Nina Carducci",
+      "url": "https://doctorwhat69.github.io/ninacarducci.github.io-main/",
+      "github": "https://github.com/Doctorwhat69/Argent-Bank",
+      "type": "OpenClassRooms",
+      "technologies": ["javascript", "react", "redux"]
+    },
+    "projet5": {
+      "titre": "Site de Sophie Bluel, architecte d'intérieur",
+      "description": "Mon premier projet important en javascript natif.",
+      "image": "./assets/site_de_Sophie_Bluel.jpg",
+      "alt": "page d'accueil du site web de Sophie Bluel",
+      "url": "https://doctorwhat69.github.io/ninacarducci.github.io-main/",
+      "github": "https://github.com/Doctorwhat69/ninacarducci.github.io-main",
+      "type": "OpenClassRooms",
+      "technologies": ["javascript", "API fetch"]
+    },
+    "projet6": {
+      "titre": "Site de Print It",
+      "description": "Mon premier aperçu du javascript natif.",
+      "image": "./assets/site_de_Print_It.jpg",
+      "alt": "page d'accueil du site web de Nina Carducci",
+      "url": "https://doctorwhat69.github.io/ninacarducci.github.io-main/",
+      "github": "https://github.com/Doctorwhat69/Le-site-Print-It",
+      "type": "OpenClassRooms",
+      "technologies": ["javascript", "HTML", "CSS"]
+    },
+    "projet7": {
+      "titre": "Site de Booki",
+      "description": "Un projet qui m'a permis d'améliorer ma connaissance de CSS et qui m'a permis de me familiariser avec le responsive design.",
+      "image": "./assets/site_de_Booki.jpg",
+      "alt": "page d'accueil du site web de Booki, application d'hébergements",
+      "url": "https://doctorwhat69.github.io/ninacarducci.github.io-main/",
+      "github": "https://github.com/Doctorwhat69/Booki",
+      "type": "OpenClassRooms",
+      "technologies": ["HTML", "CSS"]
+    },
+    "projet8": {
+      "titre": "Site de Riding Cities",
+      "description": "L'un de mes premiers projets lors de ma formation OpenClassRooms. Il m'a permis de me familiariser avec la logique du code, et en particulier du HTML et du CSS.",
+      "image": "./assets/site_de_Riding_Cities.jpg",
+      "alt": "page d'accueil du site web de Riding Cities",
+      "url": "https://doctorwhat69.github.io/ninacarducci.github.io-main/",
+      "github": "https://github.com/Doctorwhat69/ninacarducci.github.io-main",
+      "type": "OpenClassRooms",
+      "technologies": ["HTML", "CSS"]
+    },
+    "projet9": {
+      "titre": "Site de 724 events",
+      "description": "Un projet de confirmation sur REACT. Il m'a notamment permis de me familiariser avec le debbogage en identifiant et en résolvant efficacement les erreurs de code.  De plus, j'ai utilisé JEST pour effectuer des tests unitaires rigoureux, garantissant la fiabilité et la qualité du code. ",
+      "image": "./assets/site_ de_724_Events.jpg",
+      "alt": "page d'accueil du site web de 724 events",
+      "url": "https://doctorwhat69.github.io/ninacarducci.github.io-main/",
+      "github": "https://github.com/Doctorwhat69/ninacarducci.github.io-main",
+      "type": "OpenClassRooms",
+      "technologies": ["React", "Jest"]
+    },
+    "projet10": {
+      "titre": "Jeu de plateforme Javascript",
+      "description": "Un petit projet de jeu vidéo pour tester la POO class version javascript !",
+      "image": "./assets/Jeu_plateforme_javascript.jpg",
+      "alt": "page de mon jeu de plateforme",
+      "url": "https://doctorwhat69.github.io/mario-game-like/",
+      "github": "https://github.com/Doctorwhat69/mario-game-like",
+      "type": "jeux JS",
+      "technologies": ["Javascript"]
+    }
   }
 }
