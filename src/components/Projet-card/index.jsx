@@ -30,7 +30,7 @@ function Card({ Src, Alt, Description, Name, Github, Website, Technologies }) {
             </a>
           </div>
         </div>
-        <div className="flex inset-y-0 2xl:mt-56">
+        <div className="mt-10 2xl:mt-56">
           <div className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
             <p className="md:hidden 2xl:block text-white whitespace-normal">
               {Description}

@@ -4,7 +4,7 @@ import "./index.css";
 import Header from "./containers/Header";
 import Footer from "./containers/Footer";
 import Home from "./pages/Home";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import OthersProjects from "./pages/OthersProjects";
 import { LanguageProvider } from "./Context/languageContext.jsx";
 
@@ -23,7 +23,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           </Routes>
           <Footer />
         </div>
-      </Router>{" "}
+      </Router>
     </LanguageProvider>
   </React.StrictMode>
 );
