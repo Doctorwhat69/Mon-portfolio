@@ -89,7 +89,7 @@
       "technologies": ["javascript", "react", "css-components"]
     },
     "projet3": {
-      "titre": "Site de Oh My Food",
+      "titre": "Site de Oh-My-Food",
       "description": "Ce site a été développé à l'aide SASS, et a permis de mettre en avant ma capacité à produire des animations CSS vraiment sympathiques !  ",
       "image": "./assets/OhMyFood.png",
       "alt": "lorem",
