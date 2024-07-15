@@ -31,6 +31,7 @@ function Resume() {
                 href="https://github.com/Doctorwhat69"
                 target="_blank"
                 rel="noreferrer noopener"
+                className="hover:animate-bounce"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -45,6 +46,7 @@ function Resume() {
                 href="https://www.linkedin.com/in/thomas-blanc-5b5093118/"
                 target="_blank"
                 rel="noreferrer noopener"
+                className="hover:animate-bounce"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
