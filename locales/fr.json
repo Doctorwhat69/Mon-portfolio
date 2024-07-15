@@ -83,7 +83,7 @@
       "description": "Mon projet de la découverte de React ! Un projet somme toute motivant, et qui m'a permis de me familiariser avec l'une des bibliothèques Front les plus populaires. De plus, j'ai découvert les usages de Css-components vraiment utile en particulier pour mettre en place des animations fluides et pour gerer efficacement l'entièreté de son CSS !",
       "image": "./assets/Kasa-fr.jpg",
       "alt": "lorem",
-      "url": "https://doctorwhat69.github.io/L-application-OhMyFood/index.html",
+      "url": "https://doctorwhat69.github.io/Le-site-de-Kasa-Fr/",
       "github": "https://github.com/Doctorwhat69/Le-site-de-Kasa-Fr",
       "type": "OpenClassRooms",
       "technologies": ["javascript", "react", "css-components"]
