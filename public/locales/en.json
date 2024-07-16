@@ -130,7 +130,7 @@
       "technologies": ["javascript", "HTML", "CSS"]
     },
     "projet7": {
-      "titre": "Site de Booki",
+      "titre": "Booki website",
       "description": "A project that allowed me to improve my knowledge of CSS and become familiar with responsive design.",
       "image": "./assets/site_de_Booki.jpg",
       "alt": "page d'accueil du site web de Booki, application d'hébergements",
@@ -140,7 +140,7 @@
       "technologies": ["HTML", "CSS"]
     },
     "projet8": {
-      "titre": "Site de Riding Cities",
+      "titre": "Riding Cities website",
       "description": "One of my first projects during my training at OpenClassRooms. It allowed me to get familiar with the logic of code, particularly HTML and CSS.",
       "image": "./assets/site_de_Riding_Cities.jpg",
       "alt": "page d'accueil du site web de Riding Cities",
@@ -160,7 +160,7 @@
       "technologies": ["React", "Jest"]
     },
     "projet10": {
-      "titre": "Jeu de plateforme Javascript",
+      "titre": "Plateformer Javascript",
       "description": "A small video game project to test object-oriented programming (OOP) using JavaScript classes!",
       "image": "./assets/Jeu_plateforme_javascript.jpg",
       "alt": "page de mon jeu de plateforme",
