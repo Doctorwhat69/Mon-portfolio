@@ -27,7 +27,7 @@
       "description": "My React Discovery Project! A very motivating project that allowed me to familiarize myself with one of the most popular Frontend libraries. Additionally, I discovered the very useful uses of CSS-components, particularly for implementing smooth animations and efficiently managing the entirety of CSS!",
       "image": "./assets/Kasa-fr.jpg",
       "alt": "page d'accueil du site web de Nina Carducci",
-      "url": "https://doctorwhat69.github.io/L-application-OhMyFood/index.html",
+      "url": "https://doctorwhat69.github.io/Le-site-de-Kasa-Fr/",
       "github": "https://github.com/Doctorwhat69/Le-site-de-Kasa-Fr",
       "technologies": ["javascript", "react", "css-components"]
     },
@@ -36,8 +36,8 @@
       "description": "A confirmation project on REACT. It allowed me to familiarize myself with debugging by identifying and effectively resolving code errors. Additionally, I used JEST to perform rigorous unit testing, ensuring the reliability and quality of the code.",
       "image": "./assets/site_ de_724_Events.jpg",
       "alt": "page d'accueil du site web de 724 events",
-      "url": "https://doctorwhat69.github.io/ninacarducci.github.io-main/",
-      "github": "https://github.com/Doctorwhat69/ninacarducci.github.io-main",
+      "url": "https://doctorwhat69.github.io/Site-724events/",
+      "github": "https://github.com/Doctorwhat69/Site-724events",
       "technologies": ["React", "Jest"]
     }
   },
@@ -154,8 +154,8 @@
       "description": "A confirmation project on REACT. It allowed me to familiarize myself with debugging by identifying and effectively resolving code errors. Additionally, I used JEST to perform rigorous unit testing, ensuring the reliability and quality of the code.",
       "image": "./assets/site_ de_724_Events.jpg",
       "alt": "page d'accueil du site web de 724 events",
-      "url": "https://doctorwhat69.github.io/ninacarducci.github.io-main/",
-      "github": "https://github.com/Doctorwhat69/ninacarducci.github.io-main",
+      "url": "https://doctorwhat69.github.io/Site-724events/",
+      "github": "https://github.com/Doctorwhat69/Site-724events",
       "type": "OpenClassRooms",
       "technologies": ["React", "Jest"]
     },
