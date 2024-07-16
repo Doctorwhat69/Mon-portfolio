@@ -4,6 +4,10 @@ import { useContext } from "react";
 function SkillsCards() {
   const { languageData } = useContext(LanguageContext);
 
+  const preventDef = (e) => {
+    e.preventDefault();
+  };
+
   return (
     <div className=" text-black mt-0">
       <div className="mx-auto mt-0 max-w-screen-xl px-4 sm:px-6 lg:px-8">
@@ -17,6 +21,7 @@ function SkillsCards() {
           <a
             className="bg-zinc-100 block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-zinc-500/10 hover:shadow-zinc-500/10"
             href="#"
+            onClick={preventDef}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -42,6 +47,7 @@ function SkillsCards() {
           <a
             className="bg-zinc-100 block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-zinc-500/10 hover:shadow-zinc-500/10"
             href="#"
+            onClick={preventDef}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -67,6 +73,7 @@ function SkillsCards() {
           <a
             className="bg-zinc-100 block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-zinc-500/10 hover:shadow-zinc-500/10"
             href="#"
+            onClick={preventDef}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
