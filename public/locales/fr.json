@@ -17,7 +17,7 @@
       "description": "Ce projet d'appli immobilière, Argent-Bank a été passionnant et très formateur ! Il m'a permis d'utiliser Redux et React pour créer une fonctionnalité de connexion intuitive ainsi qu'une page utilisateur complète et interactive.",
       "image": "./assets/site_de_Argent_Bank.jpg",
       "alt": "page d'accueil du site web de Argent-Bank",
-      "url": "https://doctorwhat69.github.io/ninacarducci.github.io-main/",
+      "url": "https://doctorwhat69.github.io/Argent-Bank/",
       "github": "https://github.com/Doctorwhat69/Argent-Bank",
       "technologies": ["javascript", "react", "redux"]
     },
@@ -113,8 +113,8 @@
       "description": "Mon premier projet important en javascript natif.",
       "image": "./assets/site_de_Sophie_Bluel.jpg",
       "alt": "page d'accueil du site web de Sophie Bluel",
-      "url": "https://doctorwhat69.github.io/ninacarducci.github.io-main/",
-      "github": "https://github.com/Doctorwhat69/ninacarducci.github.io-main",
+      "url": "https://doctorwhat69.github.io/Le-frontEnd-du-Site-de-Sophie-Bluel/",
+      "github": "https://github.com/Doctorwhat69/Le-site-de-Sophie-Bluel",
       "type": "OpenClassRooms",
       "technologies": ["javascript", "API fetch"]
     },

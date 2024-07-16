@@ -18,7 +18,7 @@
       "description": "This real estate app project, Argent-Bank, has been exciting and highly educational! It allowed me to use Redux and React to create an intuitive sign-in feature as well as a complete and interactive user page.",
       "image": "./assets/site_de_Argent_Bank.jpg",
       "alt": "page d'accueil du site web de Argent-Bank",
-      "url": "https://doctorwhat69.github.io/ninacarducci.github.io-main/",
+      "url": "https://doctorwhat69.github.io/Argent-Bank/",
       "github": "https://github.com/Doctorwhat69/Argent-Bank",
       "technologies": ["javascript", "react", "redux"]
     },
@@ -104,8 +104,8 @@
       "description": "This real estate app project, Argent-Bank, has been exciting and highly educational! It allowed me to use Redux and React to create an intuitive sign-in feature as well as a complete and interactive user page.",
       "image": "./assets/site_de_Argent_Bank.jpg",
       "alt": "page d'accueil du site web de Argent Bank",
-      "url": "https://doctorwhat69.github.io/ninacarducci.github.io-main/",
-      "github": "https://github.com/Doctorwhat69/ninacarducci.github.io-main",
+      "url": "https://doctorwhat69.github.io/Argent-Bank/",
+      "github": "https://github.com/Doctorwhat69/Argent-Bank",
       "type": "OpenClassRooms",
       "technologies": ["javascript", "react", "redux"]
     },
@@ -114,8 +114,8 @@
       "description": "My first significant project in native JavaScript.",
       "image": "./assets/site_de_Sophie_Bluel.jpg",
       "alt": "page d'accueil du site web de Sophie Bluel",
-      "url": "https://doctorwhat69.github.io/ninacarducci.github.io-main/",
-      "github": "https://github.com/Doctorwhat69/ninacarducci.github.io-main",
+      "url": "https://doctorwhat69.github.io/Le-frontEnd-du-Site-de-Sophie-Bluel/",
+      "github": "https://github.com/Doctorwhat69/Le-site-de-Sophie-Bluel",
       "type": "OpenClassRooms",
       "technologies": ["javascript", "API fetch"]
     },
