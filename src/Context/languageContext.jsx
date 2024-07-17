@@ -9,10 +9,6 @@ const LanguageProvider = ({ children }) => {
 
   useEffect(() => {
     fetchLanguageData();
-  }, []);
-
-  useEffect(() => {
-    fetchLanguageData();
   }, [language]);
 
   const fetchLanguageData = () => {
