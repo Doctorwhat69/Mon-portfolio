@@ -12,7 +12,7 @@
 
   "Projets": {
     "titre": "My projects",
-
+    "plus": "see all my projects",
     "projet1": {
       "titre": "Argent-Bank, Bank App",
       "description": "This real estate app project, Argent-Bank, has been exciting and highly educational! It allowed me to use Redux and React to create an intuitive sign-in feature as well as a complete and interactive user page.",

@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 function Card({ Src, Alt, Description, Name, Github, Website, Technologies }) {
   return (
-    <article className="p-2 2xl:p-0 md:h-56 2xl:h-auto group relative block bg-black rounded-md w-full aspect-square">
+    <article className="max-h-[296px] sm:max-h-none p-2 2xl:p-0 md:h-56 2xl:h-auto group relative block bg-black rounded-md w-full aspect-square">
       <img
         alt={Alt}
         src={Src}
@@ -32,7 +32,7 @@ function Card({ Src, Alt, Description, Name, Github, Website, Technologies }) {
         </div>
         <div className="mt-10 2xl:mt-56">
           <div className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
-            <p className="md:hidden 2xl:block text-white whitespace-normal">
+            <p className="md:hidden 2xl:block text-white whitespace-normal md:line-clamp-none	line-clamp-5">
               {Description}
             </p>
             <div className="flex flex-wrap gap-1 mt-2">
