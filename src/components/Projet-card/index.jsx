@@ -32,7 +32,7 @@ function Card({ Src, Alt, Description, Name, Github, Website, Technologies }) {
         </div>
         <div className="mt-10 2xl:mt-56">
           <div className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
-            <p className="md:hidden 2xl:block text-white whitespace-normal md:line-clamp-none	line-clamp-5">
+            <p className="md:hidden 2xl:block text-white whitespace-normal md:line-clamp-none	line-clamp-5 overflow-y-auto">
               {Description}
             </p>
             <div className="flex flex-wrap gap-1 mt-2">
